@@ -13020,20 +13020,6 @@ ganache-cli@^6.1.0:
     source-map-support "0.5.12"
     yargs "13.2.4"
 
-ganache@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/ganache/-/ganache-7.0.1.tgz#a79470c03f992dd64077c9ab602a053f26c10d5d"
-  integrity sha512-P3mw+O23fD7BuWTdhr0WweOrTJCBRBFX22nMpmQDZgb1vmcYEv7PzNiKIfsI6PGOLh7PO8GuoRiMYBF+SlFikg==
-  dependencies:
-    "@trufflesuite/bigint-buffer" "1.1.9"
-    emittery "0.10.0"
-    keccak "3.0.1"
-    leveldown "6.1.0"
-    secp256k1 "4.0.2"
-  optionalDependencies:
-    bufferutil "4.0.5"
-    utf-8-validate "5.0.7"
-
 ganache@^3.0.0-filecoin.3:
   version "3.0.0-filecoin.3"
   resolved "https://registry.yarnpkg.com/ganache/-/ganache-3.0.0-filecoin.3.tgz#b23741e3235ad6fd2089ef0c83114dfb4a14124c"
@@ -13043,6 +13029,20 @@ ganache@^3.0.0-filecoin.3:
     keccak "3.0.1"
     leveldown "5.6.0"
     secp256k1 "4.0.2"
+
+ganache@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/ganache/-/ganache-7.0.2.tgz#c6b43061dd37d722dbf02db992cc38600389b757"
+  integrity sha512-cywtnBJQY/olx87mb6IT0NiBr8aTk58WccRF8fHtVQLQXxyEUbQfozqAZmpTA25Vdme+i+kFrGr9TrEA0GGq7g==
+  dependencies:
+    "@trufflesuite/bigint-buffer" "1.1.9"
+    emittery "0.10.0"
+    keccak "3.0.1"
+    leveldown "6.1.0"
+    secp256k1 "4.0.2"
+  optionalDependencies:
+    bufferutil "4.0.5"
+    utf-8-validate "5.0.7"
 
 gar@^1.0.4:
   version "1.0.4"
